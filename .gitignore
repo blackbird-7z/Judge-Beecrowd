@@ -1,0 +1,12 @@
+# 1. Ignora absolutamente tudo
+*
+
+# 2. Abre exceção para não ignorar pastas (necessário para o Git entrar nelas)
+!*/
+
+# 3. Abre exceção para o arquivo de código e o próprio gitignore
+!Program.cs
+!.gitignore
+
+# 4. (Opcional) Se você quiser manter o README.md para o seu portfólio
+!README.md
